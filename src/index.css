@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 25x;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #3db618;
+  background: -webkit-linear-gradient(to right, #abcf29, #7fc432, #347c32);
+  background: linear-gradient(to right, #52c343, #87f864, #cffb9c);
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  animation: myanimation 20s infinite;
+}
